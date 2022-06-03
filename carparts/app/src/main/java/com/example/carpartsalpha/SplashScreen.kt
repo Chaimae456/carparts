@@ -33,7 +33,7 @@ class SplashScreen : AppCompatActivity() {
             },
             3000
         )
-        val typeface : Typeface = Typeface.createFromAsset(assets, "Alibaba_Sans_Heavy.ttf")
+
     }
 }
 
