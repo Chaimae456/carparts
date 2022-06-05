@@ -8,4 +8,7 @@
     <color name="Muskmelon">#F29863</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="teal_200">#A52424</color>
+    <color name="teal_700">#0D9C1C</color>
+
 </resources>

@@ -5,14 +5,12 @@ import android.graphics.Typeface
 import android.util.AttributeSet
 import androidx.appcompat.widget.AppCompatTextView
 
-class CarpartTextViewBold(context: Context, attrs: AttributeSet): AppCompatTextView(context,attrs)  {
-
+class CarpartsTextViewBold(context: Context, attrs:AttributeSet):AppCompatTextView(context, attrs) {
     init {
         applyFont()
     }
-
     private fun applyFont(){
-        val typeface : Typeface = Typeface.createFromAsset(context.assets , "alibaba_sans_heavy.ttf")
+        val typeface:Typeface = Typeface.createFromAsset(context.assets,"alibaba_sans_heavy.ttf")
         setTypeface(typeface)
     }
 }

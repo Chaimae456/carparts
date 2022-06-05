@@ -6,12 +6,12 @@
     tools:context=".activities.MainActivity">
 
 
-    <com.example.carpartsalpha.utils.CarpartTextViewBold
+    <com.example.carpartsalpha.utils.CarpartsTextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/app_name_spalsh"
+        android:text="@string/app_name_splash"
         android:textSize="32sp"
         >
 
-    </com.example.carpartsalpha.utils.CarpartTextViewBold>
+    </com.example.carpartsalpha.utils.CarpartsTextView>
 </androidx.constraintlayout.widget.ConstraintLayout>
